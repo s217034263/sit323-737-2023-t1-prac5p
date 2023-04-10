@@ -1,0 +1,25 @@
+{
+  "name": "calc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "winston": "^3.8.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s217034263/sit737-2023-t1-prac4p.git"
+  },
+  "bugs": {
+    "url": "https://github.com/s217034263/sit737-2023-t1-prac4p/issues"
+  },
+  "homepage": "https://github.com/s217034263/sit737-2023-t1-prac4p#readme"
+}

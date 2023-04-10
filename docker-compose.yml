@@ -1,0 +1,16 @@
+version: '3'
+services:
+  mynode:
+    build: .
+    ports:
+      - "3000:3040"
+    environment:
+      - NODE_ENV=production
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3040/health"]
+      interval: 25s
+      timeout: 15s
+      retries: 2
+    restart: on-failure
+
+
